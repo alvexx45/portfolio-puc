@@ -1,0 +1,24 @@
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#pfp {
+    width: 60%;
+}
+
+#line {
+    border-bottom: 2px solid #000;
+    width: 115rem;
+}
+
+.card-body img {
+    width: 30%;
+}
+
+.icons {
+    margin-right: 10px;
+    font-size: 2rem;
+}
