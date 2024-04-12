@@ -89,20 +89,8 @@ ul {
     color: #fff;
 }
 
-#slides .slide_1 {
-    background: #00171F;
-}
-
-#slides .slide_2 {
-    background: #003459;
-}
-
-#slides .slide_3 {
-    background: #007EA7;
-}
-
-#slides .slide_4 {
-    background: #00A8E8;
+#slides {
+    background: #313D5A;
 }
 
 #controls {
