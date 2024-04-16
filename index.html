@@ -11,36 +11,37 @@
 </head>
 
 <body>
-    <header class="m-5 fs-2 fw-bold d-flex justify-content-between align-items-center">
+    <header class="fw-bold d-flex justify-content-between align-items-center">
         <a href="index.html">
-            <p id="n1" class="mt-2 mb-0 py-2 px-5">BERNARDO BICALHO</p>
+            <p id="n1" class="mt-5 mb-0 py-2 ps-5">BERNARDO BICALHO</p>
         </a>
-        <ul id="section" class="list-unstyled d-flex mb-0">
-            <li class="mt-4 py-2 px-3">SEÇÃO 1</li>
-            <li class="mt-4 py-2 px-3">SEÇÃO 2</li>
-            <li class="mt-4 py-2 px-3">SEÇÃO 3</li>
+        <ul class="mt-5 list-unstyled d-flex mb-0 pe-5">
+            <li class="py-2 px-3">SEÇÃO 1</li>
+            <li class="py-2 px-3">SEÇÃO 2</li>
+            <li class="py-2 px-3">SEÇÃO 3</li>
         </ul>
     </header>
     <div id="separador" class="m-5">
         <h1>Perfil</h1>
         <div id="line" class="border border-bottom d-flex align-items-center"></div>
     </div>
-    <div id="perfil" class="d-flex m-5">
-        <div class="foto">
+    <div id="perfil" class="row d-flex m-5">
+        <div class="col-lg-3 col-md-4 col-sm-12 foto">
             <img id="pfp" class="ms-5 rounded border border-4 border-secondary-subtle" src="assets/eu.png" alt="">
         </div>
-        <div class="d-flex flex-column fw-bold">
+        <div class="mt-4 col-lg-9 col-md-8 col-sm-12 d-flex flex-column fw-bold">
             <div>
                 <h2>Bernardo Bicalho</h2>
             </div>
-            <div class="text mt-4">
-                <p>Tenho 18 anos, programo desde os 12 e estou cursando Ciências da Computação na PUC Minas.</p>
+            <div class="text mt-2">
+                <p>Tenho 18 anos, programo desde os 12. Fiz Ensino Médio Técnico em Informática no Colégio COTEMIG
+                    Barroca e atualmente estou cursando Ciências da Computação na PUC Minas Praça da Liberdade.</p>
             </div>
-            <div class="info mt-4 fw-bold">
+            <div class="info mt-3 fw-bold">
                 <p>Localização: <a href="#">Belo Horizonte - MG &#127463;&#127479;</a></p>
                 <p>Site: <a href="https://github.com/alvexx45" target="_blank">github.com/alvexx45</a></p>
             </div>
-            <div class="icons">
+            <div id="icons" class="mt-4">
                 <ion-icon name="logo-linkedin"></ion-icon>
                 <ion-icon name="logo-github"></ion-icon>
                 <ion-icon name="logo-instagram"></ion-icon>
@@ -52,43 +53,49 @@
         <div id="line" class="border border-bottom d-flex align-items-center"></div>
     </div>
     <div id="cards" class="container mt-5 mb-5">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <img src="assets/festologo.png" alt="Festo!" />
-                    <div class="card__content">
-                        <a href="repo.html">
-                            <p class="card__title">Festo!</p>
-                            <p class="card__description">Organização de festas</p>
-                        </a>
-                    </div>
+                    <a href="repo.html">
+                        <img src="assets/festologo.png" alt="Festo!" />
+                        <div class="card__content">
+                                <p class="card__title">Festo!</p>
+                                <p class="card__description">Organização de festas</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <img src="assets/python.png" alt="python" />
-                    <div class="card__content">
-                        <p class="card__title">Password Generator</p>
-                        <p class="card__description">Gerador de senhas</p>
-                    </div>
+                    <a href="repo.html">
+                        <img src="assets/python.png" alt="python" />
+                        <div class="card__content">
+                            <p class="card__title">Password Generator</p>
+                            <p class="card__description">Gerador de senhas</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <img src="assets/ykgg.png" alt="ykgg" />
-                    <div class="card__content">
-                        <p class="card__title">YKGG Store</p>
-                        <p class="card__description">Loja de roupas</p>
-                    </div>
+                    <a href="repo.html">
+                        <img src="assets/ykgg.png" alt="ykgg" />
+                        <div class="card__content">
+                            <p class="card__title">YKGG Store</p>
+                            <p class="card__description">Loja de roupas</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card h-100">
-                    <img src="assets/js.png" alt="js" />
-                    <div class="card__content">
-                        <p class="card__title">Verificador de idade</p>
-                        <p class="card__description">Verificador de idade</p>
-                    </div>
+                    <a href="repo.html">
+                        <img src="assets/js.png" alt="js" />
+                        <div class="card__content">
+                            <p class="card__title">Verificador de idade</p>
+                            <p class="card__description">Verificador de idade</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -97,126 +104,107 @@
         <h1>Conteúdo sugerido</h1>
         <div id="line" class="border border-bottom d-flex align-items-center"></div>
     </div>
-    <div id="slider">
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
-        <input type="radio" name="slider" id="slide4">
-        <div id="slides">
-            <div id="overflow">
-                <div class="inner">
-                    <div class="slide slide_1">
-                        <div class="slide-content">
-                            <iframe width="1100" height="480"
-                                src="https://www.youtube.com/embed/jQI0bsCtdws?si=1lbEQl9kzK4DO7iL"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide slide_2">
-                        <div class="slide-content">
-                            <iframe width="1100" height="480" src="https://www.youtube.com/embed/CgkZ7MvWUAA?si=oMP7BcbqUY9GLLLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide slide_3">
-                        <div class="slide-content">
-                            <iframe width="1100" height="480" src="https://www.youtube.com/embed/c2M-rlkkT5o?si=GsUkt83SiP4R7HKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide slide_4">
-                        <div class="slide-content">
-                            <iframe width="1100" height="480" src="https://www.youtube.com/embed/Ldl_CvMGmEA?si=LTIY82Qz8E1W1uyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
+    <section class="slide-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="assets/curio.jpg">
+                <img id="slide-2" src="assets/mainoo.jpg">
+                <img id="slide-3" src="assets/react.jpg">
+                <img id="slide-4" src="assets/alee.jpg">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
             </div>
         </div>
-        <div id="controls">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-        </div>
-        <div id="bullets">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-        </div>
-    </div>
+    </section>
     <div id="separador" class="m-5">
-        <h1>Colegas de trabalho</h1>
+        <h1>Colegas de Trabalho</h1>
         <div id="line" class="border border-bottom d-flex align-items-center"></div>
     </div>
-    <div class="container">
-        <div id="cards" class="container mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/th.png" alt="Festo!" />
-                        <div class="card__content">
-                            <p class="card__title">Thiago Henrique</p>
-                        </div>
+    <div id="cards" class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/gabriel.png" alt="Festo!" />
+                    <div class="card__content">
+                        <p class="card__title">Gabriel Costa</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/gabriel.png" alt="python" />
-                        <div class="card__content">
-                            <p class="card__title">Gabriel Costa</p>
-                        </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/th.png" alt="python" />
+                    <div class="card__content">
+                        <p class="card__title">Thiago Henrique</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/mateus.png" alt="ykgg" />
-                        <div class="card__content">
-                            <p class="card__title">Mateus Fasciani</p>
-                        </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/bruna.png" alt="ykgg" />
+                    <div class="card__content">
+                        <p class="card__title">Bruna Borges</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/joao.png" alt="js" />
-                        <div class="card__content">
-                            <p class="card__title">João Oliveira</p>
-                        </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/mateus.png" alt="js" />
+                    <div class="card__content">
+                        <p class="card__title">Mateus Fasciani</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/natsumi.png" alt="js" />
-                        <div class="card__content">
-                            <p class="card__title">Natsumi Yuki</p>
-                        </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/natsumi.png" alt="ykgg" />
+                    <div class="card__content">
+                        <p class="card__title">Natsumi Yuki</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 mx-5">
-                    <div class="card h-100">
-                        <img src="assets/bruna.png" alt="js" />
-                        <div class="card__content">
-                            <p class="card__title">Bruna Borges</p>
-                        </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/joao.png" alt="js" />
+                    <div class="card__content">
+                        <p class="card__title">João Oliveira</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/cavalo.png" alt="ykgg" />
+                    <div class="card__content">
+                        <p class="card__title">Felipe Fenske</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/lucas.png" alt="js" />
+                    <div class="card__content">
+                        <p class="card__title">Lucas Marinho</p>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="text-center py-4">
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="icons">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                    <ion-icon name="logo-github"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </div>
-                <div>
-                    <p class="mb-0 fs-5">© 2024 - Bernardo Bicalho</p>
-                </div>
+    </div>
+    <footer class="text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <div id="icons">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <p class="fs-5">© 2024 - Bernardo Bicalho</p>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
