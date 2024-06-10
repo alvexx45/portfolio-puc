@@ -1,0 +1,97 @@
+{
+    "user": {
+        "id": 1,
+        "name": "bernardo",
+        "username": "alvexx45",
+        "bio": "Begginer programmer learning HTML, CSS, JS and Python. I speak english, portuguese, so feel free to speak to me in any of these languages.",
+        "photo": "https://avatars.githubusercontent.com/u/91989612?v=4",
+        "location": "Belo Horizonte - Brazil",
+        "url": "https://github.com/alvexx45"
+    },
+    "repositories": [
+        {
+            "id": 1,
+            "name": "festo",
+            "description": "Plataforma para otimizar a organização de festas e eventos criada no COTEMIG em 2023 e posteriormente apresentada para a banca de investidores no programa de aceleração COTEMIG STARTUPS, o projeto foi eleito o vencedor dessa edição.",
+            "url": "https://github.com/alvexx45/festo",
+            "photo": "assets/festologo.png"
+        },
+        {
+            "id": 2,
+            "name": "password-generator",
+            "description": "Simple random password generator using Python",
+            "url": "https://github.com/alvexx45/password-generator",
+            "photo": "assets/python.png"
+        },
+        {
+            "id": 3,
+            "name": "ykgg-store",
+            "description": "School project of clothing marketplace based on grid",
+            "url": "https://github.com/alvexx45/ykgg-store",
+            "photo": "assets/ykgg.png"
+        },
+        {
+            "id": 4,
+            "name": "verificador-de-idade",
+            "description": "Verificador de idade dinâmico em HTML, CSS e JavaScript que retorna idade informada e ",
+            "url": "https://github.com/alvexx45/verificador-de-idade",
+            "photo": "assets/js.png"
+        }
+    ],
+    "suggestedContents": [
+        {
+            "id": 1,
+            "title": "Sandro Curió",
+            "description": "Matemática básica com o youtuber Sandro Curió.",
+            "coverImageUrl": "assets/curio.jpg",
+            "contentUrl": "https://www.youtube.com/@sandrocuriodicasdemat"
+        },
+        {
+            "id": 2,
+            "title": "Kobbie Mainoo",
+            "description": "Jogador do Manchester United",
+            "coverImageUrl": "assets/mainoo.jpg",
+            "contentUrl": "https://www.instagram.com/kobbie/"
+        },
+        {
+            "id": 3,
+            "title": "Matemática",
+            "description": "Um guia completo para iniciantes em JavaScript.",
+            "coverImageUrl": "assets/alee.jpg",
+            "contentUrl": "https://open.spotify.com/intl-pt/album/2BFosqa97kxv0HBBeB02d8?si=jtw_mu7CQe-D6xyRxsoGtw"
+        },
+        {
+            "id": 4,
+            "title": "Curso de React",
+            "description": "Curso introdutório de React",
+            "coverImageUrl": "assets/react.jpg",
+            "contentUrl": "https://www.udemy.com/course/curso-reactjs/"
+        }
+    ],
+    "workColleagues": [
+        {
+            "id": 1,
+            "photoUrl": "assets/gabriel.png",
+            "name": "Gabriel Costa",
+            "profileUrl": "https://github.com/gabriel-vianna1"
+        },
+        {
+            "id": 2,
+            "photoUrl": "assets/natsumi.png",
+            "name": "Natsumi Yuki",
+            "profileUrl": "https://github.com/NatsumiYuki"
+        },
+        {
+            "id": 3,
+            "photoUrl": "assets/bruna.png",
+            "name": "Bruna Borges",
+            "profileUrl": "https://github.com/brunabeborges"
+        },
+        {
+            "id": 4,
+            "photoUrl": "assets/joao.png",
+            "name": "João Oliveira",
+            "profileUrl": "https://github.com/olveirancc"
+        }
+    ]
+}
